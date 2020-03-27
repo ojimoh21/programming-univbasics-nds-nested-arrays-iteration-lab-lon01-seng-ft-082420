@@ -30,9 +30,7 @@ def total_even_pairs(src)
   # this!
   
 total = 0 
-row_index = 0 
 
-while row_index < src.count do 
   
   
 end
