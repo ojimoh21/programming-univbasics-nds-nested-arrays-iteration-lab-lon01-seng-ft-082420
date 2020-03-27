@@ -31,7 +31,7 @@ def total_even_pairs(src)
   
 total = 0 
 
-src.each 
+src.each { 
   
   
 end
