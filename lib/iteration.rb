@@ -30,8 +30,11 @@ def total_even_pairs(src)
   # this!
   
 total = 0 
-
-src.each { 
-  
+row_index = 0 
+src[row_index].each { |x| if x.even? 
+total += x 
+  row_index += 1 
+}
+total
   
 end
